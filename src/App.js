@@ -14,9 +14,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Nopeus {nopeus} km/h</h1>
+      <h1>Speed {nopeus} km/h</h1>
       <div className="number-inputs">
-        <h3>Kadenssi</h3>
+        <h3>Cadence</h3>
         <input 
         type="number" 
         placeholder="rpm" 
@@ -25,43 +25,43 @@ function App() {
         />
       </div>
       <div>
-        <h3>Vanne</h3>
+        <h3>Rim</h3>
         <input 
         type="number" 
-        placeholder="mm" 
+        placeholder="diameter mm" 
         value = {vanne} 
         onChange={e => setVanne(+e.target.value)}
         />
       </div>
       <div>
-        <h3>Rengas</h3>
+        <h3>Tire</h3>
         <input 
         type="number" 
-        placeholder="mm" 
+        placeholder="width mm" 
         value = {rengas} 
         onChange={e => setRengas(+e.target.value)}
         />
       </div>
       <div>
-        <h3>Eturatas</h3>
+        <h3>Front Gear</h3>
         <input 
         type="number" 
-        placeholder="hammasluku" 
+        placeholder="number of teeth" 
         value = {eturatas} 
         onChange={e => setEturatas(+e.target.value)}
         />
       </div>
       <div>
-        <h3>Takaratas</h3>
+        <h3>Rear Gear</h3>
         <input 
         type="number" 
-        placeholder="hammasluku" 
+        placeholder="number of teeth" 
         value = {takaratas} 
         onChange={e => setTakaratas(+e.target.value)}
         />
       </div>
       <div>
-        <button onClick={addThem}>Laske</button>
+        <button onClick={addThem}>Submit</button>
         
       </div>
     </div>
