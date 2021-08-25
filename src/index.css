@@ -9,11 +9,11 @@
   text-align: center;
   padding-top: 50px;
   /* background: #999693; */
-  background: url(https://source.unsplash.com/pY9OvNNey24/1600x900);
+  background: url(https://source.unsplash.com/QnSjbDB57AU/1600x900);
   background-size: cover;
 
   min-height: 100vh;
-  color: #d2c0fd;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 h1 {
@@ -27,13 +27,17 @@ h1 {
 input {
   font-size: 20px;
   margin-bottom: 15px;
-  border-radius: 20px 40px;
-  border: 1px solid #d2c0fd;
+  /* border-radius: 20px 40px; */
+  border-radius: 3px;
+  /* border: 1px solid #d2c0fd; */
+  border: 10px solid rgba(255, 255, 255, 0.3);
+  outline: none;
   width: 45%;
   padding: 10px 10px;
   text-align: center;
-  background: #d2c0fd;
-  color: #5938a7;
+  background: rgba(255, 255, 255, 0.5);
+  /* background: transparent; */
+  /* color: #5938a7; */
 }
 
 input:first-child {
@@ -43,13 +47,14 @@ input:first-child {
 button {
   padding: 10px 0px;
   font-size: 30px;
-  border-radius: 20px 40px;
-  background: #f07817;
+  /* border-radius: 20px 40px; */
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.3);
   border: none;
   margin-top: 10px;
   width: 45%;
 
-  color: #d7cbf7;
+  color: white;
   cursor: pointer;
 }
 
