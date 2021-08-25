@@ -8,7 +8,10 @@
   font-family: sans-serif;
   text-align: center;
   padding-top: 50px;
-  background: #999693;
+  /* background: #999693; */
+  background: url(https://source.unsplash.com/pY9OvNNey24/1600x900);
+  background-size: cover;
+
   min-height: 100vh;
   color: #d2c0fd;
 }
